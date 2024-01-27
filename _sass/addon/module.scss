@@ -3,11 +3,14 @@
 */
 
 /* ---------- scss placeholder --------- */
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap';
 
 %heading {
   color: var(--heading-color);
   font-weight: 400;
-  font-family: $font-family-heading;
+  font-family: 'Noto Sans KR', sans-serif;
+
+  // font-family: $font-family-heading;
 }
 
 %section {

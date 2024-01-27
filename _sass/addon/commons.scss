@@ -1,4 +1,5 @@
 /* The common styles */
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap';
 
 html {
   @media (prefers-color-scheme: light) {
@@ -400,6 +401,9 @@ main {
 
 .content {
   font-size: 1.08rem;
+  font-family: 'Noto Sans KR', sans-serif;
+
+  // font-family: 'Nanum Gothic', sans-serif;
   margin-top: 2rem;
   overflow-wrap: break-word;
 

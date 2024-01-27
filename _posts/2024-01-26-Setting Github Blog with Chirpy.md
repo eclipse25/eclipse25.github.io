@@ -42,7 +42,7 @@ avatar: /assets/img/pingu.jpg
 HTML 파일 위치 : \_includes\sidebar.html  
 CSS 파일 위치 : \_sass\addon\commons.scss
 
-- 나는 프로필 이미지와 블로그 이름 등의 윗부분 요소들이 중앙정렬 되있으면 좋겠어서 고쳤다.
+- 나는 프로필 이미지와 블로그 이름 등의 윗부분 요소들이 중앙정렬 되어있으면 좋겠어서 고쳤다. 그런데 다른 버전의 chirpy에서는 이미 중앙정렬 되어있고 메뉴에도 아이콘 없이 중앙정렬 되어있는 경우도 있는 것 같다.
 
 ```css
 .profile-wrapper {
