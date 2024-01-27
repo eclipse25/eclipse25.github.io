@@ -8,7 +8,7 @@ tags: [정렬]
 
 # 버블 정렬
 
-<img src="/assets/img/algorithms/bubble_sort.gif" width="500"/>
+<img src="/assets/img/algorithms/bubble_sort.gif" alt="버블 정렬 알고리즘 gif" width="500"/>
 
 거품이 유리잔 바닥에서 올라오는 것처럼 정렬 과정에서 큰 값이나 작은 값이 배열을 통해 거품(Bubble)처럼 상승하거나 이동한다고 해서 버블 정렬이다.
 
