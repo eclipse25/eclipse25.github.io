@@ -8,8 +8,8 @@ tags: [Jekyll, Chirpy]
 
 # Chirpy 테마로 깃허브 블로그 개설하기
 
-[윈도우용 기본적인 가이드 블로그](<https://devpro.kr/posts/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-(1)/>)
-[윈도우용 트러블슈팅 가이드 블로그](https://ree31206.tistory.com/entry/github-pages-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%85%8C%EB%A7%88-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0Chirpy)
+[윈도우용 기본적인 가이드 블로그](<https://devpro.kr/posts/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-(1)/>)  
+[윈도우용 트러블슈팅 가이드 블로그](https://ree31206.tistory.com/entry/github-pages-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%85%8C%EB%A7%88-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0Chirpy)  
 [커스터마이징 가이드 블로그](https://www.irgroup.org/posts/jekyll-chirpy/)
 
 - 다른 분들도 어느 정도는 파일들을 만져서 기본 설정값을 많이 바꾸셨겠지만 Chirpy 테마 파일도 버전이 있는건지 여러 다른 블로그들에서 적용한 것과 내가 적용한 파일에 차이가 있는 것으로 보인다. 잘 찾아서 설치해야 할 것 같다. 물론 아무거나 설치한 후 폴더를 뒤져서 수정하면 상관없긴 하다.
