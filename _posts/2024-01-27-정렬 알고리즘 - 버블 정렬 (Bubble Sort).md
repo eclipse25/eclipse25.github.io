@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "정렬 알고리즘 - 버블 정렬 (Bubble Sort)"
-date: 2024-01-26 10:00:00 +0900
+title: "정렬 알고리즘 - 버블 정렬(Bubble Sort)"
 categories: [알고리즘]
-tags: [정렬]
+tags: [알고리즘, 정렬]
 ---
 
 # 버블 정렬
