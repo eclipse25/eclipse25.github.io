@@ -2,7 +2,7 @@
 layout: post
 title: "선형대수학 - 기본 표기법(Basic Notation)"
 categories: [선형대수학]
-tags: [선형대수학, 머신러닝, 딥러닝]
+tags: [선형대수학, 머신러닝, Numpy]
 use_math: true
 ---
 
@@ -28,13 +28,13 @@ use_math: true
 
 ## 기본 표기법 (Basic Notation)
 
-- $A \in \mathbb{R}^{m\times n}$ : $m$개의 행과 $n$개의 열을 가진 행렬을 의미한다.
-- $x \in \mathbb{R}^n$ : $n$개의 원소를 가진 벡터를 의미한다.
+- $A \in \mathbb{R}^{m\times n}$ : $m$개의 행과 $n$개의 열을 가진 행렬
+- $x \in \mathbb{R}^n$ : $n$개의 원소를 가진 벡터
 
   - $n$차원 벡터는 $n$개의 행과 1개의 열을 가진 행렬로 생각할 수도 있고 이것을 열벡터(column vector)로 부르기도 한다.
   - 행벡터(row vector)를 표현하려면, $x^T$($T$는 transpose를 의미)로 쓴다.
 
-- $x_i$ : 벡터 $x$의 $i$번째 원소를 의미한다.
+- $x_i$ : 벡터 $x$의 $i$번째 원소
 
   $$
   \begin{align*}
@@ -47,7 +47,7 @@ use_math: true
   \end{align*}
   $$
 
-- $a_{ij}$(또는 $A_{ij}, A_{i,j}$) : 행렬 $A$의 $i$번째 행, $j$번째 열에 있는 원소를 의미한다.
+- $a_{ij}$(또는 $A_{ij}, A_{i,j}$) : 행렬 $A$의 $i$번째 행, $j$번째 열에 있는 원소
 
   $$
   \begin{align*}
@@ -60,7 +60,7 @@ use_math: true
   \end{align*}
   $$
 
-- $a_j$ 혹은 $A_{:,j}$ : $A$의 $j$번째 열을 의미한다.
+- $a_j$ 혹은 $A_{:,j}$ : $A$의 $j$번째 열
 
   $$
   \begin{align*}
@@ -72,7 +72,7 @@ use_math: true
   \end{align*}
   $$
 
-- $a_i^T$ 혹은 $A_{i,:}$ : $A$의 $i$번째 행을 의미한다.
+- $a_i^T$ 혹은 $A_{i,:}$ : $A$의 $i$번째 행
 
   $$
   \begin{align*}
@@ -139,12 +139,10 @@ x[i]
 ```python
 x_2dims = np.expand_dims(x, axis=1)
 x_2dims
-"""
-array([[10.5 ],
-       [ 5.2 ],
-       [ 3.25],
-       [ 7.  ]])
-"""
+#array([[10.5 ],
+#       [ 5.2 ],
+#       [ 3.25],
+#       [ 7.  ]])
 ```
 
 2차원 배열의 특정 요소에 접근하려면, 다음과 같이 한다.

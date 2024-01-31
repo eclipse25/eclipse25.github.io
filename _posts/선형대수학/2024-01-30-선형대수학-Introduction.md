@@ -2,7 +2,7 @@
 layout: post
 title: "선형대수학 - Introduction"
 categories: [선형대수학]
-tags: [선형대수학, 머신러닝, 딥러닝]
+tags: [선형대수학, 머신러닝]
 ---
 
 # 머신러닝을 위한 선형대수학
