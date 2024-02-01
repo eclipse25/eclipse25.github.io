@@ -7,8 +7,6 @@ tags: [선형대수학, 머신러닝, Numpy]
 use_math: true
 ---
 
-# 머신러닝을 위한 선형대수학
-
 ## 행렬의 곱셉 (Matrix Multiplication)
 
 행렬의 곱셈을 알아야하는 이유는 다음과 같다.
