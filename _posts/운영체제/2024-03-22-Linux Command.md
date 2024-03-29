@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "리눅스 서버 주요 개념과 명령어(작성중)"
+title: "리눅스 서버 주요 명령어"
 categories: [운영체제]
 tags: [Linux, OS, 네트워크]
 ---
 
-## 리눅스 서버 주요 개념과 명령어
+## 리눅스 서버 주요 명령어
 
 ### 1. Server 접속을 위한 SSH
 

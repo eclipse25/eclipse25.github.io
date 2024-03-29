@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL - Oracle SQL 쿼리"
+title: "SQL - Oracle SQL 계층형 쿼리"
 categories: [데이터베이스]
 tags: [Data, Database, SQL]
 ---
