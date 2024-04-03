@@ -2,7 +2,7 @@
 layout: post
 title: "Flutter와 Firebase 설치 및 설정 가이드"
 categories: [Flutter]
-tags: [Flutter, Dart, Firebase, 웹 개발, 앱 개발]
+tags: [Flutter, Dart, Firebase]
 ---
 
 <img src="/assets/img/flutterfirebase.png" alt="dart" width="500"/>
