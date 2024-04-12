@@ -27,24 +27,24 @@ tags: [Java]
 
 1. **배열(Array)** 정렬하기
 
-- **오름차순**
+   - **오름차순**
 
-  ```java
-  import java.util.Arrays;
-  //...
-  Arrays.sort(array);  // 오름차순
-  System.out.println(Arrays.toString(array));
-  ```
+     ```java
+     import java.util.Arrays;
+     //...
+     Arrays.sort(array);  // 오름차순
+     System.out.println(Arrays.toString(array));
+     ```
 
-- **내림차순**
+   - **내림차순**
 
-  ```java
-  import java.util.Arrays;
-  import java.util.Collections;
-  //...
-  Arrays.sort(array, Collections.reverseOrder());  // 내림차순
-  System.out.println(Arrays.toString(array));
-  ```
+     ```java
+     import java.util.Arrays;
+     import java.util.Collections;
+     //...
+     Arrays.sort(array, Collections.reverseOrder());  // 내림차순
+     System.out.println(Arrays.toString(array));
+     ```
 
 2. **ArrayList** 정렬하기
 
@@ -58,7 +58,7 @@ tags: [Java]
   System.out.println(list);
   ```
 
-- **내림차순**
+  - **내림차순**
 
   ```java
   import java.util.Arrays;
@@ -75,31 +75,31 @@ tags: [Java]
 
 1. ArrayList → Array 변환하기
 
-- 노가다로 for문 돌려서 직접 넣기
+   - 노가다로 for문 돌려서 직접 넣기
 
-  ```java
-  import java.util.ArrayList;
+     ```java
+     import java.util.ArrayList;
 
-  public class Main {
-     public static void main(String[] args) {
+     public class Main {
+        public static void main(String[] args) {
 
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("사과");
-        //...
-        String[] array = new String[arrayList.size()];
+           ArrayList<String> arrayList = new ArrayList<>();
+           arrayList.add("사과");
+           //...
+           String[] array = new String[arrayList.size()];
 
-        for (int i = 0; i < arrayList.size(); i++) {
-              array[i] = arrayList.get(i);
+           for (int i = 0; i < arrayList.size(); i++) {
+                 array[i] = arrayList.get(i);
+           }
         }
      }
-  }
-  ```
+     ```
 
-- stream API, toArray 사용하기
+   - stream API, toArray 사용하기
 
-  ```java
-  import java.util.*;
-  //...
-  int[] answer = list.stream().mapToInt(i -> i).toArray();
-  return answer;
-  ```
+     ```java
+     import java.util.*;
+     //...
+     int[] answer = list.stream().mapToInt(i -> i).toArray();
+     return answer;
+     ```
