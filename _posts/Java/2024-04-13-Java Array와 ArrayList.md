@@ -48,28 +48,28 @@ tags: [Java]
 
 2. **ArrayList** 정렬하기
 
-- **오름차순**
+   - **오름차순**
 
-  ```java
-  import java.util.ArrayList;
-  import java.util.Collections;
-  //...
-  Collections.sort(list);  // 오름차순
-  System.out.println(list);
-  ```
+     ```java
+     import java.util.ArrayList;
+     import java.util.Collections;
+     //...
+     Collections.sort(list);  // 오름차순
+     System.out.println(list);
+     ```
 
-  - **내림차순**
+   - **내림차순**
 
-  ```java
-  import java.util.Arrays;
-  import java.util.Collections;
-  //...
-  Collections.sort(list, Collections.reverseOrder());  // 내림차순
-  System.out.println(list);
+     ```java
+     import java.util.Arrays;
+     import java.util.Collections;
+     //...
+     Collections.sort(list, Collections.reverseOrder());  // 내림차순
+     System.out.println(list);
 
-  Collections.sort(list);
-  Collections.reverse(list); // 이렇게 두줄로도 가능
-  ```
+     Collections.sort(list);
+     Collections.reverse(list); // 이렇게 두줄로도 가능
+     ```
 
 ## ArrayList <-> Array 변환
 
