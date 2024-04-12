@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java - Array와 ArrayList 출력, 정렬, 변환"
+title: "Java - Array, ArrayList, List 출력, 정렬, 변환"
 categories: [Java]
 tags: [Java]
 ---
@@ -71,7 +71,7 @@ tags: [Java]
      Collections.reverse(list); // 이렇게 두줄로도 가능
      ```
 
-## ArrayList <-> Array 변환
+## 변환
 
 1. ArrayList → Array 변환하기
 
