@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - 행렬의 연산(Operations)"
+title: "[선형대수학] 행렬의 연산(Operations)"
 date: 2024-01-31 08:00:00 +0900
 categories: [Linear Algebra]
 tags: [Linear Algebra, ML, Numpy]

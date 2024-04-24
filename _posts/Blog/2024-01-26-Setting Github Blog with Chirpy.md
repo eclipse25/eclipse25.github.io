@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting Github Blog with Chirpy"
+title: "[Blogging] Setting Github Blog with Chirpy"
 date: 2024-01-26 10:00:00 +0900
 categories: [Blogging]
 tags: [Jekyll, Chirpy]

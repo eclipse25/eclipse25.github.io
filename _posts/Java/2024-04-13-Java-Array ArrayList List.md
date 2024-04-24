@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java - Array, ArrayList, List 출력, 정렬, 변환"
+title: "[Java] Array, ArrayList, List 출력, 정렬, 변환"
 categories: [Java]
 tags: [Java]
 ---

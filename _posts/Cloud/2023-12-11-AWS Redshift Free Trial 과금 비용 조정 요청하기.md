@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS 과금 비용 조정 요청하기"
+title: "[Cloud] AWS 과금 비용 조정 요청하기"
 categories: [Cloud]
 tags: [Cloud, AWS]
 ---

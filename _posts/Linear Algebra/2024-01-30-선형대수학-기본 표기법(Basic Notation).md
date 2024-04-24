@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - 기본 표기법(Basic Notation)"
+title: "[선형대수학] 기본 표기법(Basic Notation)"
 categories: [Linear Algebra]
 tags: [Linear Algebra, ML, Numpy]
 use_math: true

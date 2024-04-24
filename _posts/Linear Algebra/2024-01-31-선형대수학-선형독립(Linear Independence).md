@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - 선형독립(Linear Independence)"
+title: "[선형대수학] 선형독립(Linear Independence)"
 date: 2024-01-31 09:00:00 +0900
 categories: [Linear Algebra]
 tags: [Linear Algebra, ML, Numpy]

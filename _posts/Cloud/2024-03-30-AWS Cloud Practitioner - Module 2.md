@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Cloud Practitioner - 2. 클라우드 컴퓨팅(작성중)"
+title: "[Cloud] AWS Cloud Practitioner - 2. 클라우드 컴퓨팅(작성중)"
 categories: [Cloud]
 tags: [Cloud, AWS]
 ---

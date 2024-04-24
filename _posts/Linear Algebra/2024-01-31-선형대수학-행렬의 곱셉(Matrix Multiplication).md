@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - 행렬의 곱셉(Matrix Multiplication)"
+title: "[선형대수학] 행렬의 곱셉(Matrix Multiplication)"
 date: 2024-01-31 07:00:00 +0900
 categories: [Linear Algebra]
 tags: [Linear Algebra, Linear Algebra, Numpy]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flutter와 Firebase 설치 및 설정 가이드"
+title: "[Flutter] Flutter와 Firebase 설치 및 설정 가이드"
 categories: [Flutter]
 tags: [Flutter, Dart, Firebase]
 ---

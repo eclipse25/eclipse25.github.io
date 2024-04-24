@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - 행렬식(Determinant)"
+title: "[선형대수학] 행렬식(Determinant)"
 date: 2024-02-01 00:00:00 +0900
 categories: [Linear Algebra]
 tags: [Linear Algebra, ML, Numpy]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Cloud Practitioner - 1. AWS 소개"
+title: "[Cloud] AWS Cloud Practitioner - 1. AWS 소개"
 categories: [Cloud]
 tags: [Cloud, AWS]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "정렬 알고리즘 - 버블 정렬(Bubble Sort)"
+title: "[Algorithm] 버블 정렬(Bubble Sort)"
 categories: [Algorithm]
 tags: [Algorithm, Sort]
 ---

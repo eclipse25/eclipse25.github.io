@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - Introduction"
+title: "[선형대수학] Introduction"
 categories: [Linear Algebra]
 tags: [Linear Algebra, ML]
 ---

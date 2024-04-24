@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "리눅스 서버 주요 명령어"
+title: "[OS] 리눅스 서버 주요 명령어"
 categories: [OS]
 tags: [Linux, OS, Network]
 ---

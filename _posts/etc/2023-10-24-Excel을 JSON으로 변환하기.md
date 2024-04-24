@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "엑셀(Excel)파일을 JSON으로 변환하기"
-categories: [Flutter]
-tags: [Flutter, Firebase]
+title: "[etc] 엑셀(Excel)파일을 JSON으로 변환하기"
+categories: [etc]
+tags: []
 ---
 
 1. (구글 스프레드 시트로 작업한 데이터베이스 파일을 엑셀로 내보내거나) 엑셀파일을 저장한다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTTP 응답 상태 코드(HTTP Response Status Codes)"
+title: "[Network] HTTP 응답 상태 코드(HTTP Response Status Codes)"
 categories: [Network]
 tags: [Network]
 ---

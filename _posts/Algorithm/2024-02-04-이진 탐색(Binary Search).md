@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "탐색 알고리즘 - 이진 탐색(이분 탐색, Binary Search)"
+title: "[Algorithm] 이진 탐색(이분 탐색, Binary Search)"
 categories: [Algorithm]
 tags: [Algorithm, Search]
 use_math: true

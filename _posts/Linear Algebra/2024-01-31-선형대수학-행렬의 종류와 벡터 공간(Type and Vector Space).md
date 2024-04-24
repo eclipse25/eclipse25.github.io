@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "선형대수학 - 행렬의 종류와 벡터 공간(Type and Vector Space)"
+title: "[선형대수학] 행렬의 종류와 벡터 공간(Type and Vector Space)"
 date: 2024-01-31 07:30:00 +0900
 categories: [Linear Algebra]
 tags: [Linear Algebra, ML, Numpy]

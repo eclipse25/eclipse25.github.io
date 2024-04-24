@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "탐색 알고리즘 - 매개변수 탐색(Binary, Parameter Search)"
+title: "[Algorithm] 매개변수 탐색(Binary, Parameter Search)"
 categories: [Algorithm]
 tags: [Algorithm, Search]
 use_math: true

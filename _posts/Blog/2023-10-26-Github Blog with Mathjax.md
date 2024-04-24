@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "깃허브 블로그에 Mathjax로 수식 표시하기"
+title: "[Blogging] 깃허브 블로그에 Mathjax로 수식 표시하기"
 date: 2024-01-26 11:00:00 +0900
 categories: [Blogging]
 tags: [Jekyll, Chirpy]
@@ -28,25 +28,34 @@ tags: [Jekyll, Chirpy]
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
       processEscapes: true,
       autoload: {
         color: [],
-        colorV2: ['color']
+        colorV2: ["color"]
       }
     },
     svg: {
-      fontCache: 'global'
+      fontCache: "global"
     }
   };
-  </script>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.2/es5/tex-mml-chtml.min.js">
 </script>
+<script
+  type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.2/es5/tex-mml-chtml.min.js"
+></script>
 {% endraw %}
 ```
-- 참고로 `제공된 스크립트 소스 https://cdn.mathjax.org/mathjax/latest/MathJax.js 는 더 이상 사용되지 않습니다. MathJax CDN은 공식적으로 사용이 중단되었고, 다른 CDN으로 이동했습니다.`라고 한다. 
+
+- 참고로 `제공된 스크립트 소스 https://cdn.mathjax.org/mathjax/latest/MathJax.js 는 더 이상 사용되지 않습니다. MathJax CDN은 공식적으로 사용이 중단되었고, 다른 CDN으로 이동했습니다.`라고 한다.
 
 ### default.html 수정하기
 
@@ -54,10 +63,7 @@ tags: [Jekyll, Chirpy]
 - 붙여넣는 위치는 <body>앞의 <head>안이다. 나는 <head> 자체가 파일에 없었어서 그냥 <head>도 만들었다.
 
 ```html
-{% raw %}
-{% if page.use_math %}
-	{% include mathjax_support.html %}
-{% endif %}
+{% raw %} {% if page.use_math %} {% include mathjax_support.html %} {% endif %}
 {% endraw %}
 ```
 
@@ -68,36 +74,38 @@ tags: [Jekyll, Chirpy]
 <html lang="{{ site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
   <head>
-    {% if page.use_math %}
-	    {% include mathjax_support.html %}
-    {% endif %}
+    {% if page.use_math %} {% include mathjax_support.html %} {% endif %}
   </head>
   <body>
     {% include sidebar.html lang=lang %}
 
     <div id="main-wrapper" class="d-flex justify-content-center">
-      <div class="container d-flex flex-column px-xxl-5">
-{% endraw %}
+      <div class="container d-flex flex-column px-xxl-5">{% endraw %}</div>
+    </div>
+  </body>
+</html>
 ```
 
-### _posts 폴더의 마크다운 파일에 use_math 옵션 추가하기
+### \_posts 폴더의 마크다운 파일에 use_math 옵션 추가하기
 
-포스팅 마크다운 파일 맨 윗부분에 `use_math: true` 줄을 추가한다. 
+포스팅 마크다운 파일 맨 윗부분에 `use_math: true` 줄을 추가한다.
+
 ```markdown
-{% raw %}
----
+## {% raw %}
+
 layout: post
 title: "포스팅 제목"
 categories: [카테고리]
 tags: [태그1, 태그2]
 use_math: true
+
 ---
+
 {% endraw %}
 ```
 
-
 ---
-- 이렇게 3가지 설정만 완료하면 수식을 쓸 수 있다!
-- _config.yml 파일의 내용을 수정하라는 경우도 있었는데 나는 수정없이 잘 됐다.
-- 블록 수식을 쓸 때에는 이전 줄과의 사이에 한줄을 비워주고 `$$`를 시전해야 중앙정렬이 된다.
 
+- 이렇게 3가지 설정만 완료하면 수식을 쓸 수 있다!
+- \_config.yml 파일의 내용을 수정하라는 경우도 있었는데 나는 수정없이 잘 됐다.
+- 블록 수식을 쓸 때에는 이전 줄과의 사이에 한줄을 비워주고 `$$`를 시전해야 중앙정렬이 된다.
