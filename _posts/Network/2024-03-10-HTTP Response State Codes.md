@@ -2,7 +2,7 @@
 layout: post
 title: "[Network] 응용 계층(Application) - HTTP 응답 상태 코드"
 categories: [Network]
-tags: [Network]
+tags: [Network, Application Layer]
 ---
 
 ## HTTP 응답 상태 코드(HTTP Response Status Codes)
