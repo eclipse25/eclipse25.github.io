@@ -5,6 +5,8 @@ categories: [Java]
 tags: [Java]
 ---
 
+<img src="/assets/img/java.png" alt="java" width="300"/>
+
 ## 출력
 
 1. **배열(Array)** 출력해서 확인하기
