@@ -15,7 +15,9 @@ tags: [Flutter, Dart, Firebase]
   - `Restricted`가 반환될 경우 `Set-ExecutionPolicy AllSigned` 또는 `Set-ExecutionPolicy Bypass -Scope Process` 명령어를 입력한다.
   - `Bypass`가 반환될 경우 다음 단계로 진행한다.
 - 아래 명령줄을 입력하여 Chocolatey를 설치한다.
-  ` Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+  ```
+   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  ```
 - 설치 후 `choco` 명령어 입력으로 잘 설치되었는지 확인한다.
 
 ## 1. Flutter 설치
@@ -28,7 +30,7 @@ tags: [Flutter, Dart, Firebase]
 - JAVA 8 이상이 필요하므로 설치가 안되어있다면 설치하고 환경 변수를 설정한다.
 - [Flutter 공식 문서](https://docs.flutter.dev/get-started/install/windows#android-setup)를 따라서 안드로이드 스튜디오를 설치한다.
 - 안드로이드 스튜디오 메인화면 하단 'More Actions'에서 'SDK Manager'로 들어가 'SDK Tools' 탭에서 'Android SDK Command-line Tools (latest)'를 설치한다.
-- 'Device Manager'를 찾아 기기를 생성하고 설정한다. (프로젝트가 이미 생성된 경우 설정이 자동으로 진행될 수 있다. 기본 모델: Pixel 3a API, 릴리스 버전: ABI x86_64 설정을 추천한다.)
+- 'Device Manager'를 찾아 기기를 생성하고 설정한다. (프로젝트가 이미 생성된 경우 설정이 자동으로 진행될 수 있다. 기본 모델: Pixel 3a API, 릴리즈 버전: ABI x86_64 설정을 추천한다.)
 - 설치와 설정이 완료되면 `flutter doctor --android-licenses` 명령어를 실행한다.
 
 ## 3. 설치 점검
@@ -61,7 +63,7 @@ tags: [Flutter, Dart, Firebase]
 - `firebase login:ci` 또는 `firebase login`으로 파이어베이스 계정을 연결한다.
   - 물론 firebase 회원가입부터 해야 한다.
 - `firebase init`을 실행한다.
-- [Flutter에 Firebase 설정하기](https://firebase.google.com 링크를 참조해서 마무리한다.
+- [Flutter에 Firebase 설정하기](https://firebase.google.com) 링크를 참조해서 마무리한다.
 
 > dart pub global activate flutterfire_cli<br>
 > flutterfire configure<br>
