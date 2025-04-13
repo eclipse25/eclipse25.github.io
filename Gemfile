@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gemspec
+gem "jekyll-theme-chirpy", "~> 6.0" 
 
 group :test do
   gem "html-proofer", "~> 4.4"
@@ -23,3 +23,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'listen', '~> 3.9.0'
+
+gem 'csv'
+gem 'base64'
