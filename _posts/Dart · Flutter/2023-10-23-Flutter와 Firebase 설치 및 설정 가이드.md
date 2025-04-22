@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Flutter] Flutter와 Firebase 설치 · 환경설정"
-categories: [DevOps · etc]
+title: "Flutter와 Firebase 설치 · 환경설정"
+categories: [Dart · Flutter]
 tags: [Flutter, Dart, Firebase]
 ---
 

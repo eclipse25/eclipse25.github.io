@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Dart] 4.Classes"
-categories: [프로그래밍 언어]
+title: "Dart Classes"
+categories: [Dart · Flutter]
 tags: [Flutter, Dart]
 ---
 

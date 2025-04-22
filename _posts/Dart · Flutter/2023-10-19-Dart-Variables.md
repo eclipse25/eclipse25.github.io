@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Dart] 1.Variables"
-categories: [프로그래밍 언어]
+title: "Dart Variables"
+categories: [Dart · Flutter]
 tags: [Flutter, Dart]
 ---
 

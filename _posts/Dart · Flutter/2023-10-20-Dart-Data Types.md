@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Dart] 2.Data Types"
-categories: [프로그래밍 언어]
+title: "Dart Data Types"
+categories: [Dart · Flutter]
 tags: [Flutter, Dart]
 ---
 

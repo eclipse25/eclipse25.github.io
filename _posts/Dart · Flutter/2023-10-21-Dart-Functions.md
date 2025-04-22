@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Dart] 3.Functions"
-categories: [프로그래밍 언어]
+title: "Dart Functions"
+categories: [Dart · Flutter]
 tags: [Flutter, Dart]
 ---
 

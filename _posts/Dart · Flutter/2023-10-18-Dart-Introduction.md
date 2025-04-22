@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[Dart] 0.Introduction"
-categories: [프로그래밍 언어]
+title: "Dart Introduction"
+categories: [Dart · Flutter]
 tags: [Flutter, Dart]
 ---
 
