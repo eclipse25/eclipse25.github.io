@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[SQL] Oracle SQL 계층형 쿼리"
-categories: [데이터베이스]
+title: "Oracle SQL 계층형 쿼리"
+categories: [Database]
 tags: [Data, Database, SQL]
 ---
 

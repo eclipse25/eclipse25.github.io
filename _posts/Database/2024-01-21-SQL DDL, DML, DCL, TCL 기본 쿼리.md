@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[SQL] DDL, DML, DCL, TCL 기본 쿼리"
-categories: [데이터베이스]
+title: "SQL DDL, DML, DCL, TCL 기본 쿼리"
+categories: [Database]
 tags: [Data, Database, SQL]
 ---
 
