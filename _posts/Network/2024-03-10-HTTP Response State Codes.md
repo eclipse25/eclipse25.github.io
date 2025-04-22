@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[네트워크] 응용 계층(Application) - HTTP 응답 상태 코드"
-categories: [네트워크]
+title: "HTTP 응답 상태 코드"
+categories: [Network]
 tags: [Network, Application Layer]
 ---
 

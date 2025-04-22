@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[네트워크] 응용 계층(Application) - HTTP와 HTTPS (SSL/TLS)"
-categories: [네트워크]
+title: "HTTP와 HTTPS (SSL/TLS)"
+categories: [Network]
 tags: [Network, Application Layer]
 ---
 
