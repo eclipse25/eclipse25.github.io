@@ -4,7 +4,7 @@ title: "[선형대수학] 행렬의 연산(Operations)"
 date: 2024-01-31 08:00:00 +0900
 categories: [CS, Math, Linear Algebra]
 tags: [Math, Linear Algebra, ML, Numpy]
-use_math: true
+math: true
 ---
 
 ## 행렬의 연산(Operations)

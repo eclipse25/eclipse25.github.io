@@ -3,7 +3,7 @@ layout: post
 title: "[선형대수학] 기본 표기법(Basic Notation)"
 categories: [CS, Math, Linear Algebra]
 tags: [Math, Linear Algebra, ML, Numpy]
-use_math: true
+math: true
 ---
 
 # 머신러닝을 위한 선형대수학

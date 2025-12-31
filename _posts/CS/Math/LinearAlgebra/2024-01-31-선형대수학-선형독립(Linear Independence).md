@@ -4,7 +4,7 @@ title: "[선형대수학] 선형독립(Linear Independence)"
 date: 2024-01-31 09:00:00 +0900
 categories: [CS, Math, Linear Algebra]
 tags: [Math, Linear Algebra, ML, Numpy]
-use_math: true
+math: true
 ---
 
 ## 선형독립(Linear Independence)

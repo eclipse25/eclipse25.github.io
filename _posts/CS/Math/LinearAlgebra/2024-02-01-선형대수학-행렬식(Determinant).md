@@ -4,13 +4,13 @@ title: "[선형대수학] 행렬식(Determinant)"
 date: 2024-02-01 00:00:00 +0900
 categories: [CS, Math, Linear Algebra]
 tags: [Math, Linear Algebra, ML, Numpy]
-use_math: true
+math: true
 ---
 
 ## 행렬식(결정자, Determinant)
 
 - 행렬식(Determinant)은 선형대수학에서 중요한 개념으로, 정사각 행렬(square matrix)에 할당된 특정한 스칼라 값이다.
-- 행렬식은 보통 '$det$' 또는 기호 '$\|$'로 표시된다.
+- 행렬식은 보통 '\\(\\det\\)' 또는 기호 '\\(\\lvert\\cdot\\rvert\\)'로 표시된다.
 
 ### 행렬식의 의미
 

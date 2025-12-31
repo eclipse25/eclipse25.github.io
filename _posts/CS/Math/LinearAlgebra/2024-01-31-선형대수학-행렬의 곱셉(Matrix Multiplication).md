@@ -4,7 +4,7 @@ title: "[선형대수학] 행렬의 곱셉(Matrix Multiplication)"
 date: 2024-01-31 07:00:00 +0900
 categories: [CS, Math, Linear Algebra]
 tags: [Math, Linear Algebra, Linear Algebra, Numpy]
-use_math: true
+math: true
 ---
 
 ## 행렬의 곱셉 (Matrix Multiplication)

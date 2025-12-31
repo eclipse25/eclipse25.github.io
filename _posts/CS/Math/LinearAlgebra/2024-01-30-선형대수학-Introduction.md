@@ -3,6 +3,7 @@ layout: post
 title: "[선형대수학] Introduction"
 categories: [CS, Math, Linear Algebra]
 tags: [Math, Linear Algebra, ML]
+math: true
 ---
 
 # 머신러닝을 위한 선형대수학
